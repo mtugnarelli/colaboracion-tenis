@@ -21,7 +21,7 @@ public class MarcadorDePuntosDelGame {
                 break;
     
             default:
-                valor = obtenerValorParaMasDe3(game, puntos, puntosDelCompetidor);
+                valor = obtenerValorPara3OMas(game, puntos, puntosDelCompetidor);
         }
 
         return valor;
@@ -42,7 +42,7 @@ public class MarcadorDePuntosDelGame {
         return "30";
     }
 
-    private String obtenerValorParaMasDe3(Game game, Puntos puntos, Puntos puntosDelCompetidor) {
+    private String obtenerValorPara3OMas(Game game, Puntos puntos, Puntos puntosDelCompetidor) {
 
         String valor;
 
